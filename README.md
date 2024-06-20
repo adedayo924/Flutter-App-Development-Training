@@ -4,7 +4,7 @@ In this project we will look into create application with a single code base tha
 
 Creating a Flutter project involves setting up your development environment and then using the Flutter CLI to create the project structure. Here's a general walkthrough:
 
-## 1. Set up your development environment :laptop:
+## 1. Set up your development environment :computer:
 
 * Install Flutter SDK: Download and install the [Flutter SDK](https://docs.flutter.dev/get-started/install) following the official guide. This will provide the necessary tools to create and run Flutter apps.
 
