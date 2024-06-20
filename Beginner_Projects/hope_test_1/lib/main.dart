@@ -31,7 +31,12 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Jeilo Training App'),
+        title: const Text(
+          'Jeilo Training App',
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
         backgroundColor: Colors.green[800],
       ),
       body: Center(
