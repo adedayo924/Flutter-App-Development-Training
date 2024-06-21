@@ -34,11 +34,10 @@ class MainApp extends StatelessWidget {
               children: [
                 Image(
                   image: AssetImage('./assets/images/human.png'),
-                  width: 250,
-                  height: 250,
+                  width: 300,
+                  height: 300,
                 ),
                 Text('Hi! My name is Bob'),
-                Text('and I am a human'),
               ],
             ),
           ),
