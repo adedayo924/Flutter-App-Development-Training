@@ -6,7 +6,6 @@ void main() => runApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,
-          brightness: Brightness.light,
         ),
         title: "Hello World",
         home: const Center(
