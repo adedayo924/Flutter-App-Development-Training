@@ -13,10 +13,14 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.yellow[600],
           title: const Center(
             child: Text(
-              'I an Robot',
-              style: TextStyle(fontFamily: 'Roboto', fontSize: 14),
+              'I am Robot',
+              style: TextStyle(
+                fontFamily: 'Roboto',
+                fontSize: 14,
+              ),
             ),
           ),
         ),
