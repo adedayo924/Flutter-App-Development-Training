@@ -27,10 +27,21 @@ class MainApp extends StatelessWidget {
           ),
         ),
         body: const Center(
-          child: Image(
-            image: AssetImage('./assets/images/robot.png'),
-            width: 300,
-            height: 300,
+          child: Column(
+            children: [
+              Image(
+                image: AssetImage('./assets/images/robot.png'),
+                width: 300,
+                height: 300,
+              ),
+              Text(
+                'My name is Robo',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 14,
+                ),
+              ),
+            ],
           ),
         ),
       ),
