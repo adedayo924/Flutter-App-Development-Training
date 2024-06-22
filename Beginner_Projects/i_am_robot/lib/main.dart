@@ -29,6 +29,8 @@ class MainApp extends StatelessWidget {
         body: const Center(
           child: Image(
             image: AssetImage('./assets/images/robot.png'),
+            width: 300,
+            height: 300,
           ),
         ),
       ),
