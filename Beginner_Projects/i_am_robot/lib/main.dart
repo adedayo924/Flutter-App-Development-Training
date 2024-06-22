@@ -19,6 +19,8 @@ class MainApp extends StatelessWidget {
               'I am Robot',
               style: TextStyle(
                 fontFamily: 'Roboto',
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
                 fontSize: 14,
               ),
             ),
