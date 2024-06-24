@@ -16,18 +16,18 @@ class MainApp extends StatelessWidget {
             child: Column(
           children: [
             Container(
-              width: 100,
-              height: 100,
+              width: 300,
+              height: 300,
               color: Colors.blue,
             ),
             Container(
-              width: 100,
-              height: 100,
+              width: 300,
+              height: 300,
               color: Colors.blue.shade600,
             ),
             Container(
-              width: 100,
-              height: 100,
+              width: 300,
+              height: 300,
               color: Colors.blue.shade300,
             ),
           ],
