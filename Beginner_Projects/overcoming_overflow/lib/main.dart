@@ -16,18 +16,18 @@ class MainApp extends StatelessWidget {
             child: ListView(
           children: [
             Container(
-              width: 200,
-              height: 200,
+              width: 300,
+              height: 300,
               color: Colors.blue,
             ),
             Container(
-              width: 200,
-              height: 200,
+              width: 300,
+              height: 300,
               color: Colors.blue.shade600,
             ),
             Container(
-              width: 200,
-              height: 200,
+              width: 300,
+              height: 300,
               color: Colors.blue.shade300,
             ),
           ],
