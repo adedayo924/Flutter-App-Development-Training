@@ -17,18 +17,18 @@ class MainApp extends StatelessWidget {
           scrollDirection: Axis.horizontal,
           children: [
             Container(
-              width: 300,
-              height: 300,
+              width: 500,
+              height: 500,
               color: Colors.blue,
             ),
             Container(
-              width: 300,
-              height: 300,
+              width: 500,
+              height: 500,
               color: Colors.blue.shade600,
             ),
             Container(
-              width: 300,
-              height: 300,
+              width: 500,
+              height: 500,
               color: Colors.blue.shade300,
             ),
           ],
