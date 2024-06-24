@@ -14,6 +14,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
             child: ListView(
+          scrollDirection: Axis.horizontal,
           children: [
             Container(
               width: 300,
