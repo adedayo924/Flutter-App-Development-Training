@@ -10,23 +10,24 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
             child: Column(
           children: [
             Container(
-              width: 300,
-              height: 300,
+              width: 100,
+              height: 100,
               color: Colors.blue,
             ),
             Container(
-              width: 300,
-              height: 300,
+              width: 100,
+              height: 100,
               color: Colors.blue.shade600,
             ),
             Container(
-              width: 300,
-              height: 300,
+              width: 100,
+              height: 100,
               color: Colors.blue.shade300,
             ),
           ],
