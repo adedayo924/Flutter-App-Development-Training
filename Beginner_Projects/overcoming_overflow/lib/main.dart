@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-            child: Column(
+            child: ListView(
           children: [
             Container(
               width: 200,
