@@ -31,6 +31,9 @@ class MainApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(
+              height: 10.0,
+            ),
           ],
         )),
       ),
