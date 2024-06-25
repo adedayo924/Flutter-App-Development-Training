@@ -34,6 +34,13 @@ class MainApp extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
+            Text(
+              'Flutter Developer',
+              style: TextStyle(
+                fontSize: 15.0,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
           ],
         )),
       ),
