@@ -16,10 +16,10 @@ class MainApp extends StatelessWidget {
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
+          children: <Widget>[
             CircleAvatar(
               radius: 60.0,
-              backgroundImage: AssetImage('assets/images/profile.jpg'),
+              backgroundImage: AssetImage('assets/images/ope.jpg'),
             ),
             SizedBox(
               height: 10.0,
