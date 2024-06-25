@@ -21,6 +21,9 @@ class MainApp extends StatelessWidget {
               radius: 60.0,
               backgroundImage: AssetImage('assets/images/profile.jpg'),
             ),
+            SizedBox(
+              height: 10.0,
+            ),
           ],
         )),
       ),
