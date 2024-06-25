@@ -27,7 +27,7 @@ class MainApp extends StatelessWidget {
             Text(
               'Kolade F. Opeyemi',
               style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
               ),
             ),
