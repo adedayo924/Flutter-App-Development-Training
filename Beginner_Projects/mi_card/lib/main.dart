@@ -24,6 +24,13 @@ class MainApp extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
+            Text(
+              'Kolade F. Opeyemi',
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         )),
       ),
