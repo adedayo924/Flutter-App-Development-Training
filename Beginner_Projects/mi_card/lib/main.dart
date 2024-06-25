@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,8 +14,15 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
-        ),
+            child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const <Widget>[
+            CircleAvatar(
+              radius: 60.0,
+              backgroundImage: AssetImage('assets/images/profile.jpg'),
+            ),
+          ],
+        )),
       ),
     );
   }
