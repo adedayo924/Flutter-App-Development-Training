@@ -22,22 +22,23 @@ class MainApp extends StatelessWidget {
                 backgroundImage: AssetImage('assets/images/ope.jpg'),
               ),
               SizedBox(
-                height: 10.0,
+                height: 5.0,
               ),
               Text(
                 'Kolade F. Opeyemi',
                 style: TextStyle(
-                  fontSize: 15.0,
-                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico',
+                  fontSize: 20.0,
                 ),
               ),
               SizedBox(
-                height: 10.0,
+                height: 5.0,
               ),
               Text(
                 'Flutter Developer',
                 style: TextStyle(
-                  fontSize: 15.0,
+                  fontFamily: 'Times New Roman',
+                  fontSize: 18.0,
                   fontWeight: FontWeight.normal,
                 ),
               ),
