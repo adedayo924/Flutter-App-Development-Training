@@ -13,6 +13,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Color.fromARGB(255, 246, 255, 236),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -27,6 +28,7 @@ class MainApp extends StatelessWidget {
               Text(
                 'Kolade F. Opeyemi',
                 style: TextStyle(
+                  color: Colors.lightGreen,
                   fontFamily: 'Pacifico',
                   fontSize: 20.0,
                 ),
