@@ -13,7 +13,7 @@ class IconTextFieldRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.lightGreen[50],
+      color: Colors.lightGreen[100],
       margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 25),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),
