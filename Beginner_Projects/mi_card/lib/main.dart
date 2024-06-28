@@ -14,35 +14,39 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-            child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            CircleAvatar(
-              radius: 60.0,
-              backgroundImage: AssetImage('assets/images/ope.jpg'),
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            Text(
-              'Kolade F. Opeyemi',
-              style: TextStyle(
-                fontSize: 15.0,
-                fontWeight: FontWeight.bold,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              CircleAvatar(
+                radius: 60.0,
+                backgroundImage: AssetImage('assets/images/ope.jpg'),
               ),
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            Text(
-              'Flutter Developer',
-              style: TextStyle(
-                fontSize: 15.0,
-                fontWeight: FontWeight.normal,
+              SizedBox(
+                height: 10.0,
               ),
-            ),
-          ],
-        )),
+              Text(
+                'Kolade F. Opeyemi',
+                style: TextStyle(
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(
+                height: 10.0,
+              ),
+              Text(
+                'Flutter Developer',
+                style: TextStyle(
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.normal,
+                ),
+              ),
+              SizedBox(
+                height: 10.0,
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
