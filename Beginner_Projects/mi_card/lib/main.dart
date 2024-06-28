@@ -51,6 +51,9 @@ class MainApp extends StatelessWidget {
                 icon: Icons.contact_phone,
                 hintText: '+234 906 216 5301',
               ),
+              SizedBox(
+                height: 10,
+              ),
             ],
           ),
         ),
