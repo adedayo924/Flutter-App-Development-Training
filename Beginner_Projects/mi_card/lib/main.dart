@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:mi_card/components/text_fields.dart';
 
 void main() {
   runApp(const MainApp());
@@ -44,6 +44,10 @@ class MainApp extends StatelessWidget {
               ),
               SizedBox(
                 height: 10.0,
+              ),
+              IconTextFieldRow(
+                icon: Icons.contact_phone,
+                hintText: '+234 906 216 5301',
               ),
             ],
           ),
