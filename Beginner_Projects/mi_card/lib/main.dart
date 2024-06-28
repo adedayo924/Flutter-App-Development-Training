@@ -54,6 +54,10 @@ class MainApp extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
+              IconTextFieldRow(
+                icon: Icons.email_rounded,
+                hintText: 'adedayo924@gmail.com',
+              ),
             ],
           ),
         ),
