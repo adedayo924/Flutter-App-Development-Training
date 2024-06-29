@@ -5,6 +5,7 @@ void main() {
   print("");
 }
 
+// This is used for single line comments. Example:
 // Basic Programming Tips
 
 class MyApp extends StatelessWidget {
