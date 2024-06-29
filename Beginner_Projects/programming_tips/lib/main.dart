@@ -8,6 +8,10 @@ void main() {
 // This is used for single line comments. Example:
 // Basic Programming Tips
 
+/*
+This is used for multi-line comments. Example:
+*/
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
