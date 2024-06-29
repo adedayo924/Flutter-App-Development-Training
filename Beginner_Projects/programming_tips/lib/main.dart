@@ -17,9 +17,12 @@ Example:
 Different types of Variables:
 - String Variables: Used to store text.
 Example: String name = 'John Doe';
+- Integer(int) Variables: Used to store whole numbers.
+Example: int age = 25;
 */
 
 String name = 'John Doe';
+int age = 25;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
