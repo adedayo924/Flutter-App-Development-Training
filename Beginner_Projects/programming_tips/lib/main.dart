@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  print("");
+  print(name);
 }
 
 // This is used for single line comments. Example:
@@ -18,6 +18,9 @@ Different types of Variables:
 - String Variables: Used to store text.
 Example: String name = 'John Doe';
 */
+
+String name = 'John Doe';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
