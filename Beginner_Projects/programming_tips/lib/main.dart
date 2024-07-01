@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  print(age);
+  print(isStudent);
 }
 
 // This is used for single line comments. Example:
