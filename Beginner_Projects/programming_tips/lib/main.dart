@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-  print(name);
+  print(age);
 }
 
 // This is used for single line comments. Example:
@@ -23,6 +23,8 @@ Example: int age = 25;
 
 String name = 'John Doe';
 int age = 25;
+double height = 5.9;
+bool isStudent = true;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
